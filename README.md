@@ -32,5 +32,7 @@ __Project generation steps__:
 
 Check the deploy logs for the approuter URL and use it to launch the app. Alternatively you can find the url by looking in the BTP cockpit for the approuter running in the CF space you deployed to.
 
+> NOTE: You can only add XML annotations to a fiori elements app that is basead on an external OData service. Use the Open Guided Development option for this.
+
 # Result
 ![Running Fiori App](image-1.png)
