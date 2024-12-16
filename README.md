@@ -36,3 +36,14 @@ Check the deploy logs for the approuter URL and use it to launch the app. Altern
 
 # Result
 ![Running Fiori App](image-1.png)
+
+# VSCODE
+
+Same can be achieved from VSCODE as follows:
+
+1. In VSCODE open the menu (F1) for "fiori" and choose __Fiori: Open CF Application Router Generator__
+1. Follow the wizard as above and it will create the outer structure for an MTA project
+1. Re-open the VSCODE window on the new projects folder
+1. Use the app generator (F1) to start the Fiori wizard as above
+
+> NOTE: For some reason I had to remove the ux-specificaiton dependency otherwiose `npm install` fails. It doesnt seem to exist when you follow the steps above for BAS either.
